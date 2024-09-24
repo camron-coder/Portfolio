@@ -12,13 +12,24 @@ html {
 }
 
 
+header{
 
+color:#03fc8c;
+}
 
 body {
 	
 	background:#4264A6;
+color:#03fc8c;
+
+
 }
 
+p.welcome{
+
+font-size:20px;
+
+}
 
 #container {
 	
@@ -51,7 +62,7 @@ nav ul.horizion li{
 		padding:5px;
 		margin:5px;
 		background:#892e9d;
-		color:white;
+		color:#06118a;
 		
 		}
 

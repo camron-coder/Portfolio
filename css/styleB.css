@@ -12,23 +12,48 @@ html {
 }
 
 
+p.bio{
+
+ font-size:20px;
+
+}
+p  {
+
+
+   color:#1159ab;
+}
+
+header {
+
+color:#1159ab;
+}
 
 
 body {
-	
-		background:#3c2287;
+	 font-family: Lucida Bright, serif;
+    margin:10px;
+ background:#3c2287;
+
+
+
 }
 
 
 #container {
+
+	border:10px;
+                
+  max-width:900px;              
+  margin: auto;
 	
 }
+
 
 nav ul{
 	
 	list-style:none;
 	padding-left:0px;
-	border:1px dotted green
+	border:1px dotted green;
 	}
 
 nav ul.horizion li{
@@ -48,7 +73,7 @@ nav a{
 		padding:5px;
 		margin:5px;
 		background:#892e9d;
-		color:white;
+		color:#8a1706;
 		
 		}
 
@@ -58,3 +83,7 @@ nav a:hover{
 	background:red;
 	
 	}
+
+figcaption, footer {
+  font-size: 0.75em;
+}
