@@ -25,7 +25,10 @@ body {
 
 
 #container {
-	
+		border:10px;
+                
+  max-width:1350px;              
+  margin: auto;
 }
 
 

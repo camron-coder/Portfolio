@@ -32,7 +32,10 @@ font-size:20px;
 }
 
 #container {
-	
+		border:10x;
+                
+  max-width:1350px;              
+  margin: auto;
 }
 
 

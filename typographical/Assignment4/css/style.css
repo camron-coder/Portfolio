@@ -1,0 +1,97 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	background:#65658c;
+	
+}
+
+
+#container {
+	
+	
+	position:relative;
+	border:5px solid #9494b8;
+	width:900px;
+	margin:auto;
+	
+	
+}
+
+
+
+span.Where{
+	
+	position:absolute;
+	top:550px;
+	left:0px;
+	color:#7575a3;
+	font-size:75px;
+	rotate:-60deg;
+	text-shadow: 1px 1px black;
+	}
+
+span.you{
+	
+	position:absolute;
+	top:330px;
+	left:180px;
+	color:#666699;
+	font-size:75px;
+	rotate:-45deg;
+	text-shadow: 2px 2px black;
+	}
+	
+span.go{
+	
+	position:absolute;
+	top:240px;
+	left:370px;
+	color:#5c5c8a;
+	font-size:75px;
+	text-shadow: 5px 5px  #1f1f2e;
+	
+	}
+	
+span.i{
+	
+	position:absolute;
+	top:370px;
+	right:350px;
+	color:#52527a;
+	font-size:100px;
+	rotate:45deg;
+	text-shadow: 10px 10px #14141f;
+	
+	
+	}
+	
+span.goo{
+	
+	position:absolute;
+	top:550px;
+	right:200px;
+	color:#4e4e74;
+	font-size:100px;
+	rotate:60deg;
+	text-shadow: 30px 30px #0a0a0f;
+	
+	
+	}
+
+
+
