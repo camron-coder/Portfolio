@@ -8,7 +8,7 @@
 	
 	<title>Camron's Portfolio</title>
 	
-	<link rel="stylesheet" href="css/styleI.css">	
+	<link rel="stylesheet" href="css/stylej.css">	
 	
 </head>
 
@@ -27,25 +27,48 @@
       <li><a href="bio.html">Bio</a></li>
       <li><a href="assignments.html">Assignments</a></li>
       <li><a href="final-project.html">Final project</a></li>
-       <li><a href="java.html">java</a></li>
+        <li><a href="java.html">java</a></li>
     </ul>
   </nav>
 
   <main>
-<figure>
-  <img src= "img/MC.jpg" alt="Pic of master chief">
-  <figcaption>source - wccftech</figcaption>
-  </figure>
-<p class ="welcome">Welcome to my website! This is an archive of all my work thus far, have fun ;)</P>
-<p>*Under construction*</p>
+<script>
+
+function hello(){
+//document.write("hello");
+alert("hello");
+
+
+}
+
+
+
+function colorAC(){
+
+  document.body.style.background ="#B62631";
+
+}
+
+
+
+
+
+</script>
+
+<button onclick="hello()">say it</button>
+<button onclick="colorAC()">Let there be color!!</button>
+
+<img src="img/BF.JPG">
   </main>
 
   <footer>
-    <p>&#169;Camron Anderson 2024</p>
+    <p>&#169;Camron Anderson <span id="year"></span></p>
   </footer>
 
 
-
+<script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
   </div><!-- close "container" -->
   
