@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>JQuery</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>Its just a Query</h1>
+<h2>A Jquery</h2>
+</header>
+
+<main>
+
+<p>Click the Buttons for some really interesting content.</p>
+
+<button class="more">Let there be knowledge</button>
+<button class="shine">Let it Shine</button>
+<button class="Werid">Let there be weridness</button>
+
+<p id="Assasin">The tribune seems to really like Anton Cermak as they are constantly painting as this great hero of Chicago. But it’s not just them that feel this way as we see in one news article there are many citizens who felt a great loss when the mayor died. Everyone felt that he would be a great leader and change Chicago for the better, but his untimely death just threw everyone into an even deeper depression then they were already in.</p>
+
+
+
+
+
+
+<figure id="Sunbeam">
+
+<img src="img/sun1.jpg" alt="Image of the sunrise">
+</figure>
+
+<figure class="werid" id="werider">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4s4Dqwb3bfI?si=D7KJGOmcvn-lVID6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
+
+
+
+</main>
+
+
+
+  </div><!-- close "container" -->
+  
+  
+  <!-- Paste the jQuery starter code below here -->
+  
+   <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+
+$('p#Assasin').hide();
+$('figure#Sunbeam').hide();
+$('figure#werider').hide();
+
+
+
+
+$('.more').click(function() {
+
+	//$('p#special').show();
+	$('p#Assasin').slideToggle(800);
+	//$('p#special').fadeIn(1500);
+
+});//close click function
+
+
+$('h1').click(function() {
+	//$('body').addClass('tuesday');
+	$('body').toggleClass('tuesday');
+});//close click function for h1
+
+$('.shine').click(function(){
+
+	$('figure#Sunbeam').fadeIn(1500);
+
+});
+
+$('.Werid').click(function(){
+
+	$('figure#werider').fadeIn(1500);
+
+});
+  }); //close .ready()
+
+</script>
+
+
+  
+
+</body>
+	
+</html> 
