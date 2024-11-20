@@ -28,8 +28,9 @@ body {
 
 button{
 	
-
-	
+	padding:5px;
+	margin:5px;
+	width:200px;
 	}
 
 p{
@@ -70,7 +71,7 @@ figure.Heat iframe {
 }
 
 figure img {
-	width: 100%;
+	width: 80%;
 }
 figure {
 	margin:0px;
@@ -90,7 +91,8 @@ figure {
 
 main {
 	display:flex;
-	flex-direction:column;
+	
+flex-wrap:wrap;
 
 }
 button{
@@ -110,15 +112,15 @@ button{
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
 	
-	main {
-	display: flex;
-	flex-direction:row;
-	
+ section{
+	 
+flex-basis:40%;
+
 }
 
 button{
 	
-	background:blue;
+	background:red;
 	
 	}
 	
