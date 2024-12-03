@@ -1,0 +1,181 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+      background:url(../img/smoke.jpg);
+	  background-repeat: no-repeat;
+	  background-size:cover;
+}
+
+
+#container {
+	
+}
+
+#nav{
+
+	border-style:solid;
+	margin:auto;
+	max-width:1350px;
+	max-height:1500px;
+}
+
+#logo{
+position:relative;
+width:40%
+margin:auto;
+padding:0px;
+left:-30px;
+top:-10px;
+}
+
+
+nav ul{
+	
+	list-style:none;
+	padding-left:0px;
+	
+	}
+
+nav ul.horizion li{
+	
+	display:inline;
+	position:relative;
+	top:-130px;
+	left:200px;
+	margin:40px;
+	
+	}
+
+nav a{
+		
+		text-decoration:none;
+		display:inline-block;
+		border:1px solid black;
+		border-radius:18px;
+		padding:15px;
+		margin:15px;
+		background:#e6531e;
+		color:#030101;
+		font-family: "Jacques Francois", serif;
+		}
+
+
+nav a:hover{
+	
+	background:red;
+}
+
+#test1{
+	position:relative;
+
+margin:12px;
+border:1px solid black;
+width:500px;
+padding:20px;
+font-size:1em;
+background:#D9D9D9;
+color:#000000;
+font-family: "Jacques Francois", serif;
+
+	
+	
+	
+	}
+	
+
+#Voice{
+	
+	Position:relative;
+	Left:500px;
+	
+	
+	}
+
+#test2{
+	
+	position:relative;
+
+margin:12px;
+border:1px solid black;
+width:300px;
+padding:20px;
+font-size:1.5em;
+background:#D9D9D9;
+color:#000000;
+font-family: "Jacques Francois", serif;
+left:100px;
+top:-200px;
+	}
+
+#Sleep2{
+	
+	Position:relative;
+	Left:800px;
+	top:-100px;
+	}
+
+
+
+#test3{
+	
+	position:relative;
+
+margin:12px;
+border:1px solid black;
+width:350px;
+padding:20px;
+font-size:1.5em;
+background:#D9D9D9;
+color:#000000;
+font-family: "Jacques Francois", serif;
+left:350px;
+top:-360px;
+	
+	
+	}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
