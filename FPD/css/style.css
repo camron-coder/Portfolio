@@ -29,7 +29,7 @@ body {
 
 #nav{
 
-	border-style:solid;
+	border:1px solid #B0ACAC;
 	margin:auto;
 	max-width:1350px;
 	max-height:1500px;
@@ -45,29 +45,22 @@ top:-10px;
 }
 
 
-nav ul{
-	
-	list-style:none;
-	padding-left:0px;
-	
-	}
+
 
 nav ul.horizion li{
 	
 	display:inline;
 	position:relative;
 	top:-130px;
-	left:200px;
+	left:100px;
 	margin:40px;
 	
 	}
 
 nav a{
-		
-		text-decoration:none;
 		display:inline-block;
+		text-decoration:none;
 		border:1px solid black;
-		border-radius:18px;
 		padding:15px;
 		margin:15px;
 		background:#e6531e;
@@ -92,15 +85,16 @@ font-size:2em;
 background:#ba2727;
 color:#1a0106;
 font-family: "Jacques Francois", serif;
-left:500px;
+
+
 }
 
 #Messge{
 position:relative;
-margin:12px;
+margin:28px;
 border:1px solid black;
-padding:20px;
-font-size:1.5em;
+padding:45px;
+font-size:1.6em;
 background:#595959;
 color:#1a0106;
 font-family: "Jacques Francois", serif;
@@ -111,11 +105,15 @@ font-family: "Jacques Francois", serif;
 
 padding:10px;
 position:relative;
-left:600px;
+left:900px;
 font-size:1em;
 background:#e6531e;
 color:#000000;
 }
+footer{
+	
+	color:white;
+	}
 
 /* ========================================
 MEDIA QUERIES!
@@ -127,6 +125,36 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
 	
+	.Welcome{
+		
+		margin:auto;
+		width:85%;
+		}
+	
+	.NB{
+		
+		width:85%;
+		margin:auto;
+		display:flex;
+		flex-wrap:nowrap;
+		
+		}
+	
+	
+	body{
+		
+		width:85%;
+		margin:auto;
+		
+		
+		}
+		
+		.proof{
+			
+			width:85%;
+		margin:auto;
+			
+			}
 	
 	
 	
@@ -137,7 +165,21 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
+	horizion{
+		
+		width:85%;
+		margin:auto;
+		
+		}
 	
+	
+	body{
+		
+		width:85%;
+		margin:auto;
+		
+		
+		}
 	
 	
 	

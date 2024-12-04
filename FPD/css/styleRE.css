@@ -29,10 +29,10 @@ body {
 
 #nav{
 
-	border-style:solid;
+	border: 1px solid #B0ACAC;
 	margin:auto;
 	max-width:1350px;
-	max-height:1500px;
+	/*max-height:1500px;*/
 }
 
 #logo{
@@ -45,12 +45,7 @@ top:-10px;
 }
 
 
-nav ul{
-	
-	list-style:none;
-	padding-left:0px;
-	
-	}
+
 
 nav ul.horizion li{
 	
@@ -67,7 +62,7 @@ nav a{
 		text-decoration:none;
 		display:inline-block;
 		border:1px solid black;
-		border-radius:18px;
+		
 		padding:15px;
 		margin:15px;
 		background:#e6531e;
@@ -81,14 +76,23 @@ nav a:hover{
 	background:red;
 }
 
+
+
+#Sleep1{
+	
+	position:absolute;
+	
+	
+	}
 #test1{
-	position:relative;
+	position:absolute;
 
 margin:12px;
 border:1px solid black;
-width:500px;
+width:600px;
+height:150px;
 padding:20px;
-font-size:1em;
+font-size:1.5em;
 background:#D9D9D9;
 color:#000000;
 font-family: "Jacques Francois", serif;
@@ -101,51 +105,52 @@ font-family: "Jacques Francois", serif;
 
 #Voice{
 	
-	Position:relative;
-	Left:500px;
+	Position:absolute;
+	Left:700px;
 	
 	
 	}
 
 #test2{
 	
-	position:relative;
+	position:absolute;
 
 margin:12px;
 border:1px solid black;
-width:300px;
+width:500px;
+height:100px;
 padding:20px;
-font-size:1.5em;
+font-size:30px;
 background:#D9D9D9;
 color:#000000;
 font-family: "Jacques Francois", serif;
-left:100px;
-top:-200px;
+left:700px;
+top:950px;
 	}
 
 #Sleep2{
 	
-	Position:relative;
-	Left:800px;
-	top:-100px;
+	Position:absolute;
+	Left:1500px;
+	top:500px;
 	}
 
 
 
 #test3{
 	
-	position:relative;
+	position:absolute;
 
 margin:12px;
 border:1px solid black;
-width:350px;
+width:420px;
 padding:20px;
 font-size:1.5em;
 background:#D9D9D9;
 color:#000000;
 font-family: "Jacques Francois", serif;
-left:350px;
-top:-360px;
+left:1550px;
+top:330px;
 	
 	
 	}
@@ -161,7 +166,14 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
 	
-	
+	.NB{
+		
+		width:85%;
+		margin:auto;
+		display:flex;
+		flex-wrap:nowrap;
+		
+		}
 	
 	
 } /* closes 769px+ */
