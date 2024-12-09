@@ -8,23 +8,77 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>***</title>
+	<title>Fallen Soilders</title>
 	
-	<link rel="stylesheet" href="css/style.css">	
-	
+	<link rel="stylesheet" href="css/styleRE.css">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DynaPuff:wght@400..700&family=Jacques+Francois&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/kapakana" rel="stylesheet">
+                
 </head>
 
 
 <body>
+<div id="nav">
+<figure id= "logo">
+	
+	<img onclick="redirect()" id="Soul"src="img/soul1.png" alt="Logo for warma of a blue man in a orange circle with a fire in the middle of his chest.">
+	</figure>
+	<nav >
+    <ul class="horizion">
+    <li><a href="Research.html">Research</a></li>
+      <li><a href="Memorial.html">Memorial</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Recuriting.html">Recuriting</a></li>
+        <li><a href="product.html">Products</a></li>
+	
+    </ul>
+  </nav>
+<script>
+function redirect() {
+	location = "index.html";
+}
+</script>
+</div>
 
-  <div id="container">
+  <div id="containerMEM">
+  
+  <h1 id="Memory"> In loving memory of special agent Lu</h1>
+<figure>
 
+<img id="WeridGuy" src="img/WeridGuy.jpg" alt=" Agent lu standing in the mirrior taking a pic">
 
-
-
+</figure>
+<h2 id="LastWords">1950 - 2024<br>
+Friend, partner, husband , devoted agent. These are just some of the word&#39;s to describe this great agent, he will be missed.</h1>
 
   </div><!-- close "container" -->
-  
+  <div id="LoreBox">
+<p id="Lore">
+Special Agent Lu file overivew<br>
+Confirmed Kills:400+<br>
+Main Weapon:Banana <br>
+Overview: Special agent lu was born in austin Tx, in the 1950&#39;s. While attending college he was drafted into world war 3. The world of course knowns nothing of this world war because this one wasn&#39;t  fought on our planet. This war took place on another planet with a hostial race known as the <del>Rins</del>. This is when we got our first true contact with alien&#39;s and unfortunatly it wasn&#39;t a peaceful one. So we needed soldiers, one&#39;s that woudn&#39;t be noticed that there are missing, soldiers who had no real ties to the earth, soldiers who weren&#39;t afraid to explore and fight the unknown and Special agent lu was one of the elite soilders chosen. While apart of a elite task force he dominated the <del>Rins</del> and became a highly recognized soldier. After the war he settled down in chicago with his partner and livid a peacful life making music for some years until one day it was discovered that his partner had been infected by Zorr. Now that his alien bloodthrust has reawakend he now works at warma to hunt the species that took his partner.
+
+</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+
+$('div#LoreBox').hide();
+
+
+$('img#WeridGuy').click(function(){
+
+	$('div#LoreBox').fadeIn(1);
+	alert("Secret file unlocked")
+
+});
+
+
+
+</script>
+</div> 
 
 </body>
 	

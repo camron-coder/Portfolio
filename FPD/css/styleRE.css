@@ -12,8 +12,7 @@ html {
 }
 
 
-
-/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+/*Start of universal CSS */ 
 
 body {
 	
@@ -29,10 +28,10 @@ body {
 
 #nav{
 
-	border: 1px solid #B0ACAC;
+	border: 5px solid #B0ACAC;
 	margin:auto;
-	max-width:1350px;
-	/*max-height:1500px;*/
+	width:1350px;
+	height:130px;
 }
 
 #logo{
@@ -44,6 +43,11 @@ left:-30px;
 top:-10px;
 }
 
+#Soul{
+	
+	cursor:pointer;
+	
+	}
 
 
 
@@ -52,7 +56,7 @@ nav ul.horizion li{
 	display:inline;
 	position:relative;
 	top:-130px;
-	left:200px;
+	left:100px;
 	margin:40px;
 	
 	}
@@ -62,7 +66,7 @@ nav a{
 		text-decoration:none;
 		display:inline-block;
 		border:1px solid black;
-		
+		font-size:25px;
 		padding:15px;
 		margin:15px;
 		background:#e6531e;
@@ -75,12 +79,60 @@ nav a:hover{
 	
 	background:red;
 }
+/*End of Universal CSS */ 
+/*Start of Home Page CSS */ 
+#Welcome{
+position:absolute;
 
+margin:12px;
+border:1px solid black;
+width:290px;
+padding:20px;
+font-size:2em;
+background:#ba2727;
+color:#1a0106;
+font-family: "Jacques Francois", serif;
+left:1100px;
 
+}
+
+#Messge{
+position:absolute;
+margin:28px;
+border:1px solid black;
+padding:45px;
+font-size:1.8em;
+background:#595959;
+color:#1a0106;
+font-family: "Jacques Francois", serif;
+ line-height: 1.3;
+ width:75%;
+ left:250px;
+ top:200px;
+}
+
+#proof{
+
+padding:10px;
+position:absolute;
+left:1130px;
+font-size:2em;
+background:#e6531e;
+color:#000000;
+top:800px;
+
+}
+footer{
+	
+	color:white;
+	}
+/*End of Home page CSS */ 
+/*Start of research CSS */ 
 
 #Sleep1{
 	
 	position:absolute;
+	top:440px;
 	
 	
 	}
@@ -96,7 +148,8 @@ font-size:1.5em;
 background:#D9D9D9;
 color:#000000;
 font-family: "Jacques Francois", serif;
-
+top:210px;
+ line-height: 1.1;
 	
 	
 	
@@ -106,8 +159,8 @@ font-family: "Jacques Francois", serif;
 #Voice{
 	
 	Position:absolute;
-	Left:700px;
-	
+	Left:900px;
+	top:500px;
 	
 	}
 
@@ -124,14 +177,15 @@ font-size:30px;
 background:#D9D9D9;
 color:#000000;
 font-family: "Jacques Francois", serif;
-left:700px;
+left:900px;
 top:950px;
+ line-height: 0.9;
 	}
 
 #Sleep2{
 	
 	Position:absolute;
-	Left:1500px;
+	Left:1900px;
 	top:500px;
 	}
 
@@ -149,12 +203,328 @@ font-size:1.5em;
 background:#D9D9D9;
 color:#000000;
 font-family: "Jacques Francois", serif;
-left:1550px;
+left:1950px;
 top:330px;
 	
 	
 	}
+/*End of Reserch CSS*/
+/*Start of Memorial CSS */
 
+#containerMEM{
+	position:absolute;
+	left:950px;
+	top:170px;
+	width: 600px;
+  height: 1000px;
+  background: black;
+
+	}
+	
+	#WeridGuy{
+		
+		position:absolute;
+		top:200px;
+		left:100px;
+		cursor:pointer;
+		
+		}
+		
+		#Memory{
+			font-family:'Kapakana',serif;
+			font-size:4em;
+			 text-align: center;
+			letter-spacing: 5px;
+			 line-height: 1;
+			}
+			
+			#LastWords{
+				position:absolute;
+				font-family:'Kapakana',serif;
+			font-size:1.9em;
+			 text-align: center;
+			letter-spacing: 5px;
+			 line-height: 1;
+				top:800px;
+				
+				}
+				
+				
+	#LoreBox{
+		
+		position:absolute;
+	left:200px;
+	top:170px;
+	width: 600px;
+  height: 1000px;
+  background: #454a52;
+		
+		}
+		#Lore{
+			font-size:1.9em;
+			line-height: 1;
+			padding:10px;
+			font-family: "Jacques Francois", serif;
+			color:#394745;
+
+			}
+
+/*End of MemorialCSS */ 	
+/*Start of About CSS*/
+
+	#House{
+		
+		position:absolute;
+		left:1500px;
+		top:140px;
+		}
+		
+		#GuySuit{
+			
+			position:absolute;
+		left:500px;
+			
+			
+			}
+			
+			#founder{
+				
+				position:absolute;
+				width:510px;
+				height:250px;
+				background:#263240;
+				top:700px;
+				left:540px;
+				font-size:1.9em;
+				line-height: 1;
+				padding:10px;
+				font-family: "Jacques Francois", serif;
+				color:#456385;
+
+				}
+				
+				#Location{
+					position:absolute;
+				width:510px;
+				height:280px;
+				background:#263240;
+				top:700px;
+				left:1540px;
+				font-size:1.9em;
+				line-height: 1;
+				padding:10px;
+				font-family: "Jacques Francois", serif;
+				color:#571f18;
+					
+					
+					
+					}
+
+/*End of About CSS*/
+/*Start of Recruiting CSS*/
+	#containerRE{
+	
+				width:1000px;
+				height:1300px;
+				background:#89b1b3;
+				position:absolute;
+				left:750px;
+	
+	
+	}
+	
+		#Recriuter{
+			font-size:3em;
+			padding:10px;
+			
+			 line-height: 1;
+			font-family: 'Jacques Francois', serif;
+
+			
+			}
+			
+			label{
+				
+								font-size:2em;
+
+				
+				}
+			input[type=text] {
+				width: 20%;
+				padding: 12px 20px;
+				margin: 19px 0;
+				box-sizing: border-box;
+				font-size:2em;
+			}
+			
+			#form{
+				
+				padding:10px;
+				
+				}
+				input[type=radio]{
+					
+					margin:15px;
+					transform: scale(1.5);
+					
+					}
+				#Unknown{
+					
+					font-family: "Yarndings 12",sans-seri;
+					font-weight: 400;
+					font-style: normal;
+					font-size:2em;
+				
+					
+					}
+					#Rizor{
+						 font-family: "Rubik Glitch", system-ui;
+						font-weight: 400;
+						font-style: normal;
+						
+						}
+					
+					#Where{
+						font-size:2em;
+						
+						}
+						#Where2{
+							
+							font-size:1em;
+							}
+							
+							#Reason{
+							    width:100%;	
+								height:200px;
+								}
+								#Hear{
+									
+									width:100%;
+									
+									}
+									
+									#Join{
+										
+										font-size:4em;
+										border-radius:10px;
+										background:#bd1738;
+										color:#0f124a;
+										position:absolute;
+										bottom:20px;
+										left:400px;
+										}
+			
+
+
+/*End of Recruiting CSS*/
+/* Start of store CSS*/
+	#containerST{
+		
+		width:1800px;
+		height:1800px;
+		background:#0a4676;
+		position:absolute;
+		left:350px;
+		z-index:-1;
+		}
+		
+		
+		#back{
+		
+		width:1700px;
+		height:1500px;
+		background:#e8e4d3;
+		position:absolute;
+		left:400px;
+		font-family: 'Jacques Francois', serif;
+		top:150px;
+		
+		}
+		
+		#Title{
+			
+			padding:20px;
+			font-size:3em;
+			position:absolute;
+			left:20px;
+			top:500px;
+			}
+			
+			#description{
+				
+				width:600px;
+				height:250px;
+				font-size:2em;
+				line-height:1;
+				position:absolute;
+				top:0px;
+				left:1075px;
+				border:1px solid black;
+				padding:10px;
+				font-family: 'Jacques Francois', serif;
+				}
+				
+				#Time{
+					left:1100px;
+					position:absolute;
+					top:300px;
+					}
+					
+					#Buy{
+						
+						font-size:3em;
+						position:absolute;
+					     top:450px;
+						padding:10px;
+						border-radius:20px;
+						Background:#339933;
+						left:1100px;
+
+						}
+						
+						#Reviews{
+							padding:10px;
+							position:absolute;
+							top:700px;
+							width:600px;
+							height:25px;
+							background:#ff6666;
+							left:25px;
+							font-size:2em;
+							
+							}
+							
+							#Reviewers{
+								width:1000px;
+								height:650px;
+								position:absolute;
+							      top:775px;
+								padding:10px;
+								font-size:2em;
+								line-height:1.2;
+								background:#006699;
+								left:25px;
+								font-family: 'Jacques Francois', serif;
+								}
+								
+								#arrow{
+									--s: 10px; /* control the shape (can be percentage) */
+
+									width: 50px;
+									aspect-ratio: 5/3;
+									clip-path: polygon(0 0,0 var(--s),50% 100%,100% var(--s),100% 0,50% calc(100% - var(--s)));
+									background: #5E9FA3;
+									position:absolute;
+									top:875px;
+									left:1050px;
+									cursor:pointer;
+									}
+									
+									
+
+
+
+/* End of store CSS*/
 
 /* ========================================
 MEDIA QUERIES!
@@ -168,7 +538,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 	
 	.NB{
 		
-		width:85%;
+		width:75%;
 		margin:auto;
 		display:flex;
 		flex-wrap:nowrap;

@@ -8,20 +8,81 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>***</title>
+	<title>Recuriting</title>
 	
-	<link rel="stylesheet" href="css/style.css">	
-	
+	<link rel="stylesheet" href="css/styleRE.css">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yarndings+12&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
+<div id="nav">
+<figure id= "logo">
+	
+	<img onclick="redirect()" id="Soul"src="img/soul1.png" alt="Logo for warma of a blue man in a orange circle with a fire in the middle of his chest.">
+	</figure>
+	<nav >
+    <ul class="horizion">
+    <li><a href="Research.html">Research</a></li>
+      <li><a href="Memorial.html">Memorial</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Recuriting.html">Recuriting</a></li>
+        <li><a href="product.html">Products</a></li>
+	
+    </ul>
+  </nav>
+<script>
+function redirect() {
+	location = "index.html";
+}
+</script>
+</div>
 
-  <div id="container">
+  <div id="containerRE">
+<h1 id="Recriuter">We need your help. We are constantly finding new instances of the Zorr, So we need you to help us track them down and research them. We offer a wide range of benefits and a generous paycheck so please join us at Warma.</h1>
+<form id="form">
+
+<label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+<label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+  <label for="Age">Age</label>
+  <input type="text" id="Age" name="Age">
+<label for="Address">Address</label>
+  <input type="text" id="Address" name="Address">
+
+<p id="Where"> Where are you from?  </p>
+<p id="Where2">
+  <input type="radio" id="Earth" name="Planet" value="Earth">
+  <label for="Earth">Earth</label><br>
+ <input type="radio" id="Rizor" name="Planet" value="Rizor">
+  <label id="Rizor" for="Rizor">Rizor</label><br>
+  <input type="radio" id="Unknown" name="Planet" value="Unknown">
+  <label  id="Unknown" for="Unknown">Unknown</label><br>
+</p>
+
+<label for="Reason">What is the reason you wish to join Warma?</label>
+  <input type="text" id="Reason" name="Reason">
+  <label for="Hear">How did you hear about Warma?</label>
+  <input type="text" id="Hear" name="Hear">
+</form>
+<button onclick="FoundYou()"id="Join">Join Us!</button>
+<script>
+function FoundYou(){
+	alert("We are coming for you do not move!")
+
+}
 
 
-
-
+</script>
 
   </div><!-- close "container" -->
   
