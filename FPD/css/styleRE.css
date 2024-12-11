@@ -303,6 +303,7 @@ line-height:1;
 			 text-align: center;
 			letter-spacing: 5px;
 			 line-height: 1;
+			 color:white;
 			}
 			
 			#LastWords{
@@ -313,7 +314,8 @@ line-height:1;
 			letter-spacing: 5px;
 			 line-height: 1;
 				top:800px;
-				color:black;
+				color:white;
+			
 				}
 				
 				
@@ -332,7 +334,7 @@ line-height:1;
 			line-height: 1;
 			padding:10px;
 			font-family: "Jacques Francois", serif;
-			color:#394745;
+			color:#21ADC6;
 
 			}
 
