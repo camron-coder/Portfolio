@@ -18,12 +18,12 @@
 
 
 <body>
-<div id="nav">
+<nav  class="navi">
 <figure id= "logo">
 	
 	<img onclick="redirect()" id="Soul"src="img/soul1.png" alt="Logo for warma of a blue man in a orange circle with a fire in the middle of his chest.">
 	</figure>
-	<nav >
+	
     <ul class="horizion">
     <li><a href="Research.html">Research</a></li>
       <li><a href="Memorial.html">Memorial</a></li>
@@ -34,32 +34,38 @@
     </ul>
   </nav>
 
-</div>
+
 
   <div id="container">
-  
+  <div id="Ex1">
   <p id="test1">Subject 1 test 1: Agent Lu sleeps in his bed while his partner who is infected with the Zorr stands over him. She moves to touch him to preform the heat and soul transfer. Agent Lu awakes to find his partner standing over him, in response his partner fully rips his soul out. Agent Lu was killed in this test. We believe that when the heat transfer is happening it has an almost emp type of effect around devices as shown in the video below.</p>
+  <img id="H1" src = "img/Haunted2.jpg" alt="agent lu sleeping while his partner steals his heat">
+  <button id="VidButton" onclick="playVideo()">Play</button>
+  </div>
   
   
-  
-  
+  <div id="Ex2">
   <p id="test2"> Interview with the Zorr host. Subject was picked up while in a park with his partner.
 Headed by special agent Dan.</p> 
+<audio controls  id="audios" >
 
-<figure id="Sleep2">
+<source src="Audio/interview.mp3" type="audio/mpeg">
+</audio>
+</div>
 
+
+
+<div id="Ex3">
+<p id="test3"> While applying the special filter created by Warma to detect the heat and soul transfer that was not visible in the video here you can see the actual effects of the Zorr&#39;s attack. We unfortunatly lost specail agent Lu but even though he&#39;s gone he still is a great help to our organization.</p>
+<figure id="imis" >
 <img id="S1" src = "img/Sleep1.jpg" alt="agent lu sleeping while his partner steals his heat">
-<img id="H1" src = "img/Haunted2.jpg" alt="agent lu sleeping while his partner steals his heat">
+
 <img id="S2" src = "img/Sleep2.jpg" alt="agent lu awakes to confront his partner while she tries to steal his soul">
 <img id="S3" src = "img/Sleep3.jpg" alt="His partner holds his soul while hes dying">
 <img id="S4" src = "img/Sleep4.jpg" alt="agent lu dies from his soul getting crushed by his partner">
-
-
-
 </figure>
 
-<p id="test3"> While applying the special filter created by Warma to detect the heat and soul transfer that was not visible in the video here you can see the actual effects of the Zorr&#39;s attack. We unfortunatly lost specail agent Lu but even though he&#39;s gone he still is a great help to our organization.</p>
-
+</div>
 <script>
 function redirect() {
 	location = "index.html";
@@ -67,10 +73,10 @@ function redirect() {
 </script>
 
 
-<p>
-<button id="VidButton" onclick="playVideo()">Play</button>
 
-</p>
+
+
+
 
 <script>
 
@@ -85,10 +91,7 @@ function pauseVideo() {
 }
 
 </script>
-<audio controls  id="audios" >
 
-<source src="Audio/interview.mp3" type="audio/mpeg">
-</audio>
 
 
 

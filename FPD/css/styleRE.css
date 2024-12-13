@@ -28,8 +28,47 @@ body {
 #container {
 	
 }
-
-#nav{
+.navi{ 
+	display: flex;
+	
+	background-color: #798280; 
+	padding: 40px 50px;
+	} 
+	
+.navi img { 
+	height: 200px; 
+	position:absolute;
+	top:25px;
+	left:15px;
+	} 
+	
+.navi ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 10px; 
+	display: block; 
+	} 
+	
+button{
+		background-color:red;
+		}
+	
+.navi li { 
+	margin: 17px;
+		
+		
+	} 
+	
+.navi a { 
+	color: white; 
+	text-decoration: none; 
+	padding: 8px 16px; 
+	transition: background 0.4s; 
+	font-family: 'Jacques Francois', serif;
+	font-size:20px;
+	background:#e6531e;
+	}
+/*#nav{
 
 	border: 5px solid #B0ACAC;
 	margin:auto;
@@ -45,7 +84,7 @@ padding:0px;
 left:-30px;
 top:-10px;
 }
-
+*/
 #Soul{
 	
 	cursor:pointer;
@@ -54,10 +93,10 @@ top:-10px;
 
 
 
-nav ul.horizion li{
+/*nav ul.horizion li{
 	
 	display:inline;
-	position:relative;
+	position:relative:
 	top:-130px;
 	left:100px;
 	margin:40px;
@@ -77,15 +116,12 @@ nav a{
 		font-family: "Jacques Francois", serif;
 		}
 
+*/
 
-nav a:hover{
-	
-	background:red;
-}
 
 #foot{
 	font-size:0.9em;
-	position:absolute;
+	/*position:absolute;*/
 	bottom:0px;
 	}
 	#footr{
@@ -97,7 +133,7 @@ nav a:hover{
 /*End of Universal CSS */ 
 /*Start of Home Page CSS */ 
 #Welcome{
-position:absolute;
+/*position:absolute;*/
 
 margin:12px;
 border:1px solid black;
@@ -112,7 +148,7 @@ left:1100px;
 }
 
 #Messge{
-position:absolute;
+/*position:absolute;*/
 margin:28px;
 border:1px solid black;
 padding:45px;
@@ -129,7 +165,7 @@ font-family: "Jacques Francois", serif;
 #proof{
 
 padding:10px;
-position:absolute;
+/*position:absolute;*/
 left:1130px;
 font-size:2em;
 background:#e6531e;
@@ -146,7 +182,7 @@ footer{
 
 
 #test1{
-	position:absolute;
+	
 
 margin:12px;
 border:1px solid black;
@@ -166,15 +202,12 @@ top:210px;
 	
 
 #H1{
-	
-	position:absolute;
+
 	top:500px;
 	left:10px;
 	}
 
 #test2{
-	
-	position:absolute;
 
 margin:12px;
 border:1px solid black;
@@ -193,24 +226,24 @@ top:950px;
 
 
 #S1{
-	Position:absolute;
+
 	left:1300px;
 	top:500px;
 	
 	}
 	#S2{
-	Position:absolute;
+	
 	left:1900px;
 	top:500px;
 	
 	}
 	#S3{
-	Position:absolute;
+	
 	left:1300px;
 	top:800px;
 	
 	}#S4{
-	Position:absolute;
+	
 	left:1900px;
 	top:800px;
 	
@@ -219,7 +252,7 @@ top:950px;
 
 #test3{
 	
-	position:absolute;
+	
 
 margin:12px;
 border:1px solid black;
@@ -238,7 +271,7 @@ line-height:1;
 	
 	#vid{
 	width:650px;	
-		position:absolute;
+		
 		top:500px;
 		left:10px;
 		
@@ -251,7 +284,7 @@ line-height:1;
 	color:#5c062e;
 	font-weight:bold;
 	cursor: pointer;
-	position:relative;
+	
 	top:650px;
 	left:200px;
 	border-radius:30px;
@@ -262,7 +295,7 @@ line-height:1;
 	color:#990351;
 }
 	#audios{
-		position:absolute;
+		
 		top:700px;
 		width:600px;
 		top:1150px;
@@ -279,18 +312,19 @@ line-height:1;
 /*Start of Memorial CSS */
 
 #containerME{
-	position:absolute;
+	
 	left:950px;
 	top:170px;
 	width: 600px;
   height: 1000px;
   background: black;
-
+  display:flex;
+  flex-direction:column;
 	}
 	
 	#WeridGuy{
 		
-		position:absolute;
+		
 		top:200px;
 		left:100px;
 		cursor:pointer;
@@ -307,7 +341,7 @@ line-height:1;
 			}
 			
 			#LastWords{
-				position:absolute;
+				
 				font-family:'Kapakana',serif;
 			font-size:1.9em;
 			 text-align: center;
@@ -321,7 +355,7 @@ line-height:1;
 				
 	#LoreBox{
 		
-		position:absolute;
+		
 	left:200px;
 	top:170px;
 	width: 600px;
@@ -341,16 +375,23 @@ line-height:1;
 /*End of MemorialCSS */ 	
 /*Start of About CSS*/
 
+
+#containerA{
+	width: 600px;
+  height: 1000px;
+	
+	
+	}
 	#House{
 		
-		position:absolute;
+		
 		left:1500px;
 		top:140px;
 		}
 		
 		#GuySuit{
 			
-			position:absolute;
+			
 		left:500px;
 			
 			
@@ -358,7 +399,7 @@ line-height:1;
 			
 			#founder{
 				
-				position:absolute;
+			
 				width:510px;
 				height:250px;
 				background:#263240;
@@ -373,7 +414,7 @@ line-height:1;
 				}
 				
 				#Location{
-					position:absolute;
+					
 				width:510px;
 				height:280px;
 				background:#263240;
@@ -396,7 +437,7 @@ line-height:1;
 				width:1000px;
 				height:1300px;
 				background:#89b1b3;
-				position:absolute;
+				
 				left:750px;
 	
 	
@@ -478,7 +519,7 @@ line-height:1;
 										border-radius:10px;
 										background:#bd1738;
 										color:#0f124a;
-										position:absolute;
+										
 										bottom:20px;
 										left:400px;
 										}
@@ -492,7 +533,7 @@ line-height:1;
 		width:1800px;
 		height:2500px;
 		background:#0a4676;
-		position:absolute;
+	
 		left:350px;
 		z-index:-1;
 		}
@@ -503,7 +544,7 @@ line-height:1;
 		width:1700px;
 		height:2300px;
 		background:#e8e4d3;
-		position:absolute;
+	
 		left:400px;
 		font-family: 'Jacques Francois', serif;
 		top:150px;
@@ -514,7 +555,7 @@ line-height:1;
 			
 			padding:20px;
 			font-size:3em;
-			position:absolute;
+			
 			left:20px;
 			top:500px;
 			}
@@ -525,7 +566,7 @@ line-height:1;
 				height:250px;
 				font-size:2em;
 				line-height:1;
-				position:absolute;
+				
 				top:0px;
 				left:1075px;
 				border:1px solid black;
@@ -535,14 +576,14 @@ line-height:1;
 				
 				#Time{
 					left:1100px;
-					position:absolute;
+					
 					top:300px;
 					}
 					
 					#Buy{
 						
 						font-size:3em;
-						position:absolute;
+						
 					     top:450px;
 						padding:10px;
 						border-radius:20px;
@@ -553,7 +594,7 @@ line-height:1;
 						
 						#Reviews{
 							padding:10px;
-							position:absolute;
+							
 							top:1400px;
 							width:600px;
 							height:25px;
@@ -566,7 +607,7 @@ line-height:1;
 							#Reviewers{
 								width:1000px;
 								height:650px;
-								position:absolute;
+								
 							      top:1500px;
 								padding:10px;
 								font-size:2em;
@@ -583,7 +624,7 @@ line-height:1;
 									aspect-ratio: 5/3;
 									clip-path: polygon(0 0,0 var(--s),50% 100%,100% var(--s),100% 0,50% calc(100% - var(--s)));
 									background: #5E9FA3;
-									position:absolute;
+									
 									top:1575px;
 									left:1050px;
 									cursor:pointer;
@@ -591,7 +632,7 @@ line-height:1;
 									
 									#instruction{
 										padding:10px;
-							position:absolute;
+							
 							top:600px;
 							width:650px;
 							height:25px;
@@ -602,8 +643,8 @@ line-height:1;
 										
 										#instructions{
 											width:1000px;
-								height:650px;
-								position:absolute;
+								height:500px;
+								
 							      top:680px;
 								padding:10px;
 								font-size:2em;
@@ -630,25 +671,393 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
 	
-	.NB{
+	.navi { 
+	display: flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	
+	padding: 40px 50px;
+	} 
+	
+.navi img { 
+	height: 130px; 
+	position:absolute;
+	top:15px;
+	left:15px;
+	
+	} 
+	
+.navi ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+		display: flex; 
+
+	} 
+	
+	.navi li { 
+	margin: 0 10px;
 		
-		width:75%;
-		margin:auto;
-		display:flex;
-		flex-wrap:nowrap;
+		
+	} 
+	
+.navi a { 
+	color: white; 
+	text-decoration: none; 
+	padding: 8px 16px; 
+	font-size:30px;
+	}
+	
+.navi a:hover { 
+	background-color: black; 
+	} 
+	
+	button{
+		background-color:black;
+		}
+		
+		
+		#Welcome{
+		position:relative;
+		left:500px;
+	
+	
+
+	
+	
+	}
+	
+	#Messge{
+		
+		width:auto;
+		
 		
 		}
-	
+		
+		#proof{
+			
+			position:relative;
+			top:0px;
+		left:500px;
+			
+			}
+			#containerME  img{
+					
+					position:relative;
+					left:50px;
+					top:0px;
+					}
+					#containerME {
+					
+					position:relative;
+					left:300px;
+					top:0px;
+					}
+					
+					#LoreBox{
+						
+						position:relative;
+					left:300px;
+					top:0px;
+					}
+					
+					
+					#Founding{
+						position:relative;
+						left:300px;
+						
+						}
+						
+						#founder{
+						position:relative;
+						left:30px;
+						top:0px;
+						
+						}
+						
+						#Locations{
+						position:relative;
+						left:300px;
+						
+						}
+						#Location{
+						position:relative;
+						left:30px;
+						top:0px;
+						
+						}
+						
+						#containerRE{
+							
+							position:relative;
+							left:100px;
+							
+							}
+							
+							#Join{
+								position:relative;
+							left:350px;
+							top:0px;
+								
+								
+								}
+								#Rp{
+									position:relative;
+									top:0px;
+									
+									}
+								
+								#arrow{
+									position:relative;
+							left:650px;
+							top:-60px;
+									
+									
+									}
+									
+									#Reviewers{
+										position:relative;
+										top:-60px;
+										left:0px;
+										}
+										
+										#containerST{
+											
+											position:absolute;
+											top:150px;
+											left:0px;
+											height:2700px;
+											}
+											
+											#back{
+												position:absolute;
+											top:150px;
+											left:0px;
+											height:2600px;
+												
+												
+												}
+												
+												#Buy{
+													position:relative;
+													left:200px;
+													top:0px;
+													}
+													
+													#description{
+														width:50%;
+														
+														}
+														
+														body{
+															
+															width:auto;
+															margin:auto;
+															}
+															
+															#Ex1{
+																display:flex;
+																align-items:center;
+																flex-direction:column;
+																background:#454e52;
+																}
+																#Ex2{
+																display:flex;
+																align-items:center;
+																flex-direction:column;
+																background:#31444d ;
+																
+																}
+																#Ex3{
+																display:flex;
+																align-items:center;
+																flex-direction:column;
+																background:#123140;
+																}
+														
+														
+														
+
+										
+										
 	
 } /* closes 769px+ */
 
 
 
+	
+
 
 /* Minimum width for desktop screens. */
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1500px) {
+	
+	.navi a { 
+	
+	text-decoration: none; 
+	padding: 2px 8px; 
+	font-size:40px;
+
+	border-radius:10px;
+	}
+	
+	.navi { 
+	display: flex;
 	
 	
+	padding: 40px 50px;
+	} 
+	
+	
+	#Welcome{
+		position:relative;
+		left:1100px;
+	
+	
+
+	
+	
+	}
+	
+	#Messge{
+		
+		width:auto;
+		
+		
+		}
+		
+		#proof{
+			
+			position:relative;
+			top:0px;
+		left:1100px;
+			
+			}
+			
+			
+			#containerME{
+				position:relative;
+				left:950px;
+	top:170px;
+				
+				
+				}
+				
+				#containerME  img{
+					
+					position:relative;
+					left:50px;
+					top:0px;
+					}
+					
+					#Founding{
+						position:relative;
+						left:300px;
+						top:100px;
+						}
+						
+						#founder{
+						position:relative;
+						left:30px;
+						top:0px;
+						
+						}
+						
+						#Locations{
+						position:relative;
+						left:1500px;
+						top:-800px;
+						
+						}
+						#Location{
+						position:relative;
+						left:30px;
+						top:0px;
+						
+						}
+						#containerRE{
+							
+							position:relative;
+							left:800px;
+							
+							}
+							
+							#Join{
+								position:relative;
+							left:350px;
+							top:0px;
+								
+								
+								}
+								
+								#Rp{
+									position:relative;
+									top:-400px;
+									left:25px;
+									}
+								
+								#arrow{
+									position:relative;
+							left:650px;
+							top:-60px;
+									
+									
+									}
+									
+									#Reviewers{
+										position:relative;
+										top:-450px;
+									
+										}
+										
+										#containerST{
+											
+											position:absolute;
+											top:150px;
+											left:350px;
+											height:2700px;
+											}
+											
+											#back{
+												position:absolute;
+											top:150px;
+											left:400px;
+											height:2600px;
+												
+												
+												}
+												
+												#Buy{
+													position:relative;
+													left:100px;
+													top:0px;
+													}
+													
+													#description{
+														width:600px;
+														
+														}
+														
+														#ready{
+															
+															position:relative;
+															left:63.5%;
+															top:-630px;
+															}
+															
+															#instruction,#instructions{
+																position:relative;
+																top:-450px;
+																
+																
+																}
+																
+																#imis{
+																	display:flex;
+																	flex-direction:row;
+																	justify-content:space-evenly;
+																	
+																	}
 	
 	
 } /* closes 1024px+ */
